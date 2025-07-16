@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load the dataset
-df = pd.read_csv('your_dataset.csv')  # Replace with your actual file name
+df = pd.read_csv('heart+disease.zip')  # Replace with your actual file name
 
 # Show first 5 rows
 print("First 5 rows of the dataset:")
