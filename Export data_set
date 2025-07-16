@@ -1,0 +1,16 @@
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv('your_dataset.csv')  # Replace with your actual file name
+
+# Show first 5 rows
+print("First 5 rows of the dataset:")
+print(df.head())
+
+# Show basic info
+print("\nDataset information:")
+print(df.info())
+
+# Show summary statistics
+print("\nSummary statistics:")
+print(df.describe())
